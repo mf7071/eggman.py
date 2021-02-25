@@ -22,4 +22,5 @@ some of the things that can kill you:
 You will see two options at the beginning...
 - Start
 - Exit
+
 use space to select the menu (do not use enter)
