@@ -113,7 +113,7 @@ class EggMan:
             self.check_lose()
             self.check_win()
             time.sleep(0.2)
-        self.fall_down()
+        self.__fall_down()
 
     def fall_down(self):
         if self.world[self.eggman_position[1] + 1][self.eggman_position[0]] != self.floor:
