@@ -24,5 +24,5 @@ def on_release(key):
 with Listener(on_release=on_release) as listener2:
     listener = listener2
     listener.join()
-egg = EggMan(30)  # 30 = Camera Width
+egg = EggMan(30)  # 30 = Camera Width / View Distance
 egg.start()
