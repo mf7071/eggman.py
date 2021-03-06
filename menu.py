@@ -22,9 +22,9 @@ class Menu:
         output = f'-- {self.title} {"-" * (len(self.padding)*2-len(self.title))}\n'
         for index, item in enumerate(self.menu):
             if index == selected:
-                output += f'{self.padding[:-3]}-> {item}\n'  # i know
+                output += f'{self.padding[:-3]}-> {item}\n'
                 continue
-            output += f'{self.padding}{item}\n'  # :D
+            output += f'{self.padding}{item}\n'
         return output
 
     def up(self) -> str:
