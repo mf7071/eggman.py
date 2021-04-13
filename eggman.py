@@ -57,7 +57,10 @@ class EggMan:
                         self.friend_position = [char_index, line_index]
 
     def clear(self):
-        os.system('cls')
+        if os.name == "nt":
+            os.system('cls')
+        else:
+            os.system('clear')
 
     def print_game(self):
         self.clear()
