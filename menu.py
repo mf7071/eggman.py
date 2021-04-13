@@ -18,7 +18,10 @@ class Menu:
         self.menu.append(title)
 
     def view(self, selected: int) -> str:
-        os.system('cls')
+        if os.name == "nt":
+            os.system('cls')
+        else:
+            os.system('clear')
         output = f'-- {self.title} {"-" * (len(self.padding)*2-len(self.title))}\n'
         for index, item in enumerate(self.menu):
             if index == selected:
