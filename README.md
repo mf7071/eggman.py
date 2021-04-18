@@ -3,6 +3,8 @@ A very boring game that runs on cmd, named EggMan
 # where you can play
 - windows cmd
 - linux terminal
+
+note: you can't play this on termux
 # usage
 if you haven't installed pynput
 ```shell
