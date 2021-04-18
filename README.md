@@ -2,6 +2,7 @@
 A very boring game that runs on cmd, named EggMan
 # where you can play
 - windows cmd
+- linux terminal
 # usage
 if you haven't installed pynput
 ```shell
