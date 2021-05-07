@@ -27,3 +27,8 @@ You will see two options at the beginning...
 - Exit
 
 use space to select the menu (do not use enter)
+# screenshots
+[ss1](screenshots/ss1.png)
+[ss2](screenshots/ss2.png)
+[ss3](screenshots/ss3.png)
+[ss4](screenshots/ss4.png)
